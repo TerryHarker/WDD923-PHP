@@ -1,4 +1,6 @@
 ﻿<?php
+// Tutorial und Infos hier: https://learn.bytekultur.net/dynamisches-output/kalender-widget-mit-ueberstzung
+
 $datum = new DateTime('now'); // Datum von jetzt als Objekt
 $format = IntlDateFormatter::FULL;
 $lang = 'de_DE';

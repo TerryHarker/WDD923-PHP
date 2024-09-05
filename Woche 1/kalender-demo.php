@@ -1,4 +1,6 @@
 ﻿<?php
+// Tutorial und Infos hier: https://learn.bytekultur.net/dynamisches-output/kalender-widget
+
 // Variablen erstellen mit Datumsformaten:
 $wochentag = date('l');
 $tag = date('d'); // Tag des monats
