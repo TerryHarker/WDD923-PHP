@@ -1,5 +1,5 @@
 # WDD923-PHP
-Dieses Projekt enthält demo scripts, slides und Aufgaben für den Kurs "backend fundamentals" - PHP and MySQL für dynamische Webprojekte.
+Dieses Projekt enthält Demo Scripts, Slides und Aufgaben für den Kurs "backend fundamentals" - PHP and MySQL für dynamische Webprojekte.
 ---
 Terry Harker für SAE Zurich (Web design & Development)
 
