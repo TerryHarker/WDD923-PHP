@@ -1,6 +1,4 @@
-<?php include( 'partials/head.php' ) ?>
-	<body>
-	<?php include( 'partials/nav.php' ) ?>
+<!-- work layout, ohne header und nav und footer -->
 	
 		<section class="main-section">
 			<div class="container">
@@ -35,10 +33,4 @@
 				</div>
 			</div>
 		</section>
-		
-		
-		<?php include( 'partials/footer.php' ) ?>
-
-		
-	</body>
-</html>
+<!-- work layout ende -->

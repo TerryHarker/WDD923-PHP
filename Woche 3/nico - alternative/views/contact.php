@@ -1,6 +1,4 @@
-<?php include( 'partials/head.php' ) ?>
-	<body>
-	<?php include( 'partials/nav.php' ) ?>
+<!-- contact layout, ohne header und nav und footer -->
 	
 		<section class="main-section">
 			<div class="container">
@@ -29,8 +27,4 @@
 			</div>
 		</section>
 		
-		
-		<?php include( 'partials/footer.php' ) ?>
-		
-	</body>
-</html>
+<!-- contact layout ende -->
