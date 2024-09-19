@@ -1,12 +1,4 @@
-<?php
-// Seite konfigurieren
-$seo_pagetitle = "Nico's Portfolio | Webdesign und anderes Design";
-
-?>
-<?php include( 'partials/head.php' ) ?>
-	<body>
-	<?php include( 'partials/nav.php' ) ?>
-	
+<!-- home layout, ohne header und nav und footer -->
 		<section class="main-section">
 			<div class="container">
 								
@@ -17,9 +9,4 @@ $seo_pagetitle = "Nico's Portfolio | Webdesign und anderes Design";
 				
 			</div>
 		</section>
-		
-		
-		<?php include( 'partials/footer.php' ) ?>
-		
-	</body>
-</html>
+<!-- end home layout -->

@@ -2,8 +2,7 @@
 $seo_pagetitle_default = "Nico's Portfolio"; // standard page title
 $seo_pagetitle = isset($seo_pagetitle) ? $seo_pagetitle : $seo_pagetitle_default; // wenn kein pagetitle definiert ist, dann standard nehmen
 ?>
-<!DOCTYPE html>
-<html lang="en-gb" dir="ltr" vocab="http://schema.org/">
+
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,6 +21,12 @@ $seo_pagetitle = isset($seo_pagetitle) ? $seo_pagetitle : $seo_pagetitle_default
 		<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/theme.css">
+		<style>
+			.nav-horizontal {
+				flex-direction:row !important;
+			}
+		</style>
+
 
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 	</head>

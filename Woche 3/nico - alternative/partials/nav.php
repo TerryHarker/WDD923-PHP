@@ -1,10 +1,22 @@
 <?php
-// $letzterSlash = strrpos($_SERVER['SCRIPT_NAME'], '/'); 
-// $page = substr($_SERVER['SCRIPT_NAME'], $letzterSlash+1);
-
-$page = basename($_SERVER['SCRIPT_NAME']); // Dateiname eines URL's
-echo 'aktuelle Seite: '.$page;
-
+$navArray = array(
+	array(
+		'name' => 'Home',
+		'page' => 'home'
+	),
+	array(
+		'name' => 'Work',
+		'page' => 'work'
+	),
+	array(
+		'name' => 'Contact me',
+		'page' => 'contact'
+	),
+	array(
+		'name' => 'Anmelden', // existiert noch nicht
+		'page' => 'login'
+	)
+);
 ?>
 	<nav class="navbar navbar-expand-md navbar-light bg-light">
 			<div class="container-fluid">
@@ -13,17 +25,9 @@ echo 'aktuelle Seite: '.$page;
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item col-6 col-md-auto">
-							<a class="nav-link p-2 <?php echo ($page == 'index.php') ? 'active' : ''; ?>" href="index.php">Home</a>
-						</li>
-						<li class="nav-item col-6 col-md-auto">
-							<a class="nav-link p-2 <?php echo ($page == 'work.php') ? 'active' : ''; ?>" href="work.php">Work</a>
-						</li>
-						<li class="nav-item col-6 col-md-auto">
-							<a class="nav-link p-2 <?php echo ($page == 'contact.php') ? 'active' : ''; ?>" href="contact.php">Contact me</a>
-						</li>
-					</ul>
+					
+					<?php echo renderNav( $navArray, $page ); ?>
+
 				</div>
 			</div>
 		</nav>
