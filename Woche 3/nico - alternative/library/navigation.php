@@ -25,12 +25,12 @@
  * @return void
  */
 function renderNav( $nav, $activePage, $extraClass=''){
-    $output = '<ul class="'.NAVCLASS.' '.$extraClass.'">'; // Konstante ist global, variable muss per parameter übergeben werden
+	$output = '<ul class="'.NAVCLASS.' '.$extraClass.'">'; // Konstante ist global, variable muss per parameter übergeben werden
 	foreach($nav as $navItem) { 
 		$activeClass = $activePage==$navItem['page'] ? 'active':''; // aktive Seite?
 							
 		$output .= '<li class="nav-item col-6 col-md-auto">';
-		$output .= '<a class="nav-link p-2" href="?page='.$navItem['page'].'">';
+		$output .= '<a class="nav-link p-2 '.$activeClass.'" href="?page='.$navItem['page'].'">';
 		$output .= $navItem['name'];
 		$output .= '</a>';
 		$output .= '</li>';
