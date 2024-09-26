@@ -1,8 +1,13 @@
 <?php
-/* password_hash demo  
-   mit dieser Funktion können dank einem wechselnden Salt unterschiedliche Hashes 
-   für den gleichen Ausgangswert erstellt werden
-*/
+/** 
+ * password_hash demo  
+ * 
+ * mit password_hash() können dank einem wechselnden Salt unterschiedliche Hashes 
+ * für den gleichen Ausgangswert erstellt werden. So sollten Passworte abgelegt werden. 
+ * 
+ * password_verify() kann das Passwort nicht mehr lesbar machen, 
+ * hilft uns aber, den User Input danach wieder zu verifzieren, obwohl er nur noch als Hash gespeichert ist
+ * */ 
 ?>
 <h1>PW Hash Demo</h1>
 <p>Siehe <a href="https://www.php.net/manual/de/function.password-hash">password_hash() auf PHP.NET</a></p>
