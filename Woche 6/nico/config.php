@@ -4,6 +4,7 @@
  */
 
  define('NAVCLASS', 'navbar-nav ms-auto'); // Klasse für Navigationen (UL)
+ define('MEDIAFOLDER', 'media'); // Ordner, in dem alle Bilder / Dateien gespeichert werden
 
  // Session config:
  define('SESSIONCOOKIE_NAME', md5('eigenesCookie')); // secret fpr das Sessioncookie
