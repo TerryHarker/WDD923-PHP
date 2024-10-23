@@ -1,0 +1,28 @@
+body {
+    Font-family:Arial, Helvetica, sans-serif;
+}
+pre {
+    background:#fafafa;
+    border:1px solid #dedede;
+    padding:10px;
+    border-radius:3px;
+    position:relative;
+}
+.error {
+    background:#ffdddd;
+    display:block;
+    color:red;
+}
+.alert {
+    padding:10px;
+    border-radius:3px;
+}
+pre::before { 
+    content:"DBG";
+    font-size:10px;
+    position:absolute;
+    top:-7px;
+    background:#fafafa;
+    color:#777;
+    display:inline-block;
+}

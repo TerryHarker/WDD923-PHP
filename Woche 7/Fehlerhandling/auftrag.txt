@@ -1,0 +1,13 @@
+Auftrag: 
+*******
+Das Script enthält eine Datenbank-Verbindung und führt eine simple Anfrage an die user Tabelle aus.
+Allerdings sind viele Codezeilen enthalten, welche keine eigentliche Funktion für den Benutzer haben, 
+aber helfen sollen, damit das Script stabil und zuverlässig läuft. 
+
+
+1. Finde alles, was mit Debugging zu tun hat, und beschreibe es. 
+   Welche Tricks/Ideen für das Debugging findest du, und kannst du dir vorstellen, sie selbst zu nutzen (in welcher Situation)?
+
+2. Finde alles, was mit Fehlerhandling zu tun hat, und beschreibe es.
+   Was deckt dieses Fehlerhandling ab, und wo sind dessen Grenzen?
+   (Um dies zu testen, musst du die Datenbankverbindung und den Query eventuell etwas anpassen und absichtlich Fehler / falsche Bezeichnungen etc einbauen.)
